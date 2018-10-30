@@ -64,6 +64,5 @@ while True:
             except:
                 pycom.rgbled(0x7f0000) #Turn on Red LED
                 print("CH"+str(y+1)+" Fail")
-    
-    s.send(b'test')
+
     powerNap()
