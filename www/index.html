@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html lang=en>
+	<head>
+		<meta charset="UTF-8" />
+		<title>AlphaX MHM Configuration Page</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body style="min-width: 480px;text-align: center">
+		<div style="text-align: center;padding-top: 10px">
+			<img src="ax_logo.png" />
+			<h1>MHM4 LoRaWAN ABP Configuration</h1>
+		</div><br>
+	<div style="max-width:480px;padding:10px;margin: auto;text-align: center">
+	<form action="" method="post" accept-charset="ISO-8859-1">
+		<div width="100%" style="padding:10px;text-align: center">
+			<label style="font-size:11px">Device Address: </label>
+			<input type="text" name="devadd" style="color:#fff">
+		</div>
+		<div width="100%" style="padding:10px;text-align: center">
+			<label style="font-size:11px">Network Session Key: </label>
+			<input type="text" name="nwskey" style="color:#fff">
+		</div>
+		<div width="100%" style="padding:10px;text-align: center">
+			<label style="font-size:11px">App Session KEY: </label>
+			<input type="text" name="appkey" style="color:#fff">
+		</div>
+		<div width="100%" style="padding:10px;">
+			<input class="btn" type="submit">
+		</div>	
+	</form>
+	<br>
+		<p style="font-size:9px">If you wish to connect via ABP (which is the recommended method) the network will provide you with an Device Key, a Network Session Key and Application Key. The former identifies what application your device is connecting to, the latter is a shared secret key unique to your device to generate the session keys that prove its identity on the network. </p>
+		<br />
+	</div>
+	</body>
+    </html>
